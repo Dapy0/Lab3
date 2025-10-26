@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lb2c Remaster</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="lb2c">
+    <div class="wrapper">
+        <h1>Formularz rejestracyjny</h1>
+        <form>
+            <label>Imię: <input type="text" name="imie"></label><br>
+            <label>Nazwisko: <input type="text" name="nazwisko"></label><br>
+            <label>Data urodzenia: <input type="date" name="data_urodzenia"></label><br>
+            <label>Hasło: <input type="password" name="haslo"></label><br>
+            <label>Ulica: <input type="text" name="ulica"></label><br>
+            <label>Miasto: <input type="text" name="miasto"></label><br>
+            <label>Email: <input type="email" name="email"></label><br>
+            <label>Numer telefonu: <input type="tel" name="telefon"></label><br>
+            <label class="noChanges">Prawo jazdy: <input type="checkbox" name="prawo_jazdy"></label><br>
+
+
+            <p>Płeć:</p>
+            <label class="noChanges"><input type="radio" name="plec" value="mezczyzna">Mężczyzna</label><br>
+            <label class="noChanges"><input type="radio" name="plec" value="kobieta">Kobieta</label><br>
+            <label class="noChanges"><input type="radio" name="plec" value="inne">Inne</label><br>
+
+
+            <label>Uwagi:<br><textarea name="uwagi" rows="4" cols="50"></textarea></label><br>
+
+
+            <label>Województwo:
+                <select name="wojewodztwo">
+                    <option>dolnośląskie</option>
+                    <option>kujawsko-pomorskie</option>
+                    <option>lubelskie</option>
+                    <option>lubuskie</option>
+                    <option>łódzkie</option>
+                    <option>małopolskie</option>
+                    <option>mazowieckie</option>
+                    <option>opolskie</option>
+                    <option>podkarpackie</option>
+                    <option>podlaskie</option>
+                    <option>pomorskie</option>
+                    <option>śląskie</option>
+                    <option>świętokrzyskie</option>
+                    <option>warmińsko-mazurskie</option>
+                    <option>wielkopolskie</option>
+                    <option>zachodniopomorskie</option>
+                </select>
+            </label><br><br>
+
+        </form>
+
+    </div>
+    <div class="floating1 floating">
+        <p>plz 2 punkty</p>
+    </div>
+    <div class="floating2 floating">
+        <p>plz 2 punkty</p>
+    </div>
+
+</div>
+</body>
+</html>
